@@ -1,0 +1,7 @@
+This error occurs when using Tailwind CSS's `@apply` directive with a utility class that doesn't exist or is misspelled.  For example:
+
+```html
+<div class="bg-red-700 @apply bg-blue-500"></div>
+```
+
+If `bg-blue-500` is not defined in your Tailwind CSS configuration, you'll encounter this issue.  The error might not always be immediately obvious; it could manifest as unexpected styling or no styling at all, making debugging harder.
